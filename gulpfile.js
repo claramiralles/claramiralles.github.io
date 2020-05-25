@@ -243,9 +243,3 @@ gulp.task('bs-reload', function(done) {
   browserSync.reload();
   done();
 });
-
-gulp.task('serve', function() {
-  browserSync.init({
-     proxy: "http://localhost/mydir"
-  });
-});
