@@ -829,6 +829,7 @@ nav ul li a:hover:after {
   opacity: 0;
   -webkit-transition: opacity .5s .25s ease-out;
   transition: opacity .5s .25s ease-out;
+  margin-bottom: 1.5%;
 }
 
 .project-cover.is-visible {
